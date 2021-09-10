@@ -16,6 +16,13 @@ body {
     color: white;
 }
 
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header .logo {
     color: var(--vermelho); 
     font-family: 'Arial Black', Times;
@@ -92,4 +99,9 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+
+.carrousel-filmes {
+    margin-top: 5px;
 }
